@@ -11,7 +11,8 @@ class NavBar extends React.Component {
           <div class="card">
             <div class="card-image">
               <img src={bar}></img>
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Begin Searching Here!</span>
+              <form></form>
             </div>
             <div class="card-content">
               <p>

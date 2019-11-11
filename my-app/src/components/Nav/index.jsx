@@ -1,6 +1,7 @@
 import React from "react";
 import "./style-nav.css";
 import logo2 from "./logo2.png";
+// import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class NavBar extends React.Component {
           <div className="collapse navbar-collapse" id="navCollapse">
             <li className="nav-item main-title">
               <a
+                href="#"
                 to="/searchlistings"
                 className={
                   window.location.pathname === "/searchlistings"
@@ -40,6 +42,7 @@ class NavBar extends React.Component {
             </li>
             <li className="nav-item">
               <a
+                href="#"
                 to="/"
                 className={
                   window.location.pathname === "/"
@@ -53,6 +56,7 @@ class NavBar extends React.Component {
 
             <li className="nav-item">
               <a
+                href="#"
                 to="/searchlistings"
                 className={
                   window.location.pathname === "/searchlistings"
@@ -65,6 +69,7 @@ class NavBar extends React.Component {
             </li>
             <li className="nav-item">
               <a
+                href="#"
                 to="/postlisting"
                 className={
                   window.location.pathname === "/postlisting"
@@ -77,6 +82,7 @@ class NavBar extends React.Component {
             </li>
             <li className="nav-item">
               <a
+                href="#"
                 to="/savedlistings"
                 className={
                   window.location.pathname === "/savedlistings"
