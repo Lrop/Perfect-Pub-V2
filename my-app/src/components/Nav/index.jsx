@@ -1,5 +1,6 @@
 import React from "react";
 import "./style-nav.css";
+import logo2 from "./logo2.png";
 
 class NavBar extends React.Component {
   render() {
@@ -21,7 +22,22 @@ class NavBar extends React.Component {
             {/* <img alt="" width={50} height={50} src={}></img> */}
           </li>
           <li></li>
+
           <div className="collapse navbar-collapse" id="navCollapse">
+            <li className="nav-item main-title">
+              <a
+                to="/searchlistings"
+                className={
+                  window.location.pathname === "/searchlistings"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                {/* <img src={logo2}></img> */}
+                <img alt="" width={100} height={100} src={logo2}></img>
+                {/* Perfect Pub */}
+              </a>
+            </li>
             <li className="nav-item">
               <a
                 to="/"
