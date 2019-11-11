@@ -1,0 +1,7 @@
+.main-header {
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+  padding-bottom: 5px;
+  color: yellow;
+  text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
