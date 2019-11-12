@@ -32,7 +32,7 @@ function Header() {
               Search by Zip Code:
             </label>
             <input
-              type="password"
+              type="text"
               className="form-control"
               id="inputPassword2"
               placeholder=" Search by Zip Code:"

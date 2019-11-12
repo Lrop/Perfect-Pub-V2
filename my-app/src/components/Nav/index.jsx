@@ -67,7 +67,7 @@ class NavBar extends React.Component {
                 Search
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 href="#"
                 to="/postlisting"
@@ -79,7 +79,7 @@ class NavBar extends React.Component {
               >
                 Post
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 href="#"
