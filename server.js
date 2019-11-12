@@ -1,37 +1,17 @@
-const path = require("path");
+// const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
-// const passport = require("passport");
-const session = require("express-session");
 const app = express();
 const cors = require("cors");
-const cloudinary = require("cloudinary");
 const PORT = process.env.PORT || 3001;
 
-// require("./server/passport")(passport);
 const routes = require("./routes/index");
 
-// cloudinary.config({
-//   cloud_name: "dqpccnwco",
-//   api_key: "442876256574885",
-//   api_secret: "9yurGnuwemrGwR90gIdL7d3_wdQ"
-// });
-
-// app.use(express.static("public"));
-// app.use(express.static(__dirname + "/itemImages"));
-// app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(bodyParser.json());
-// app.use(cors());
-// app.options("*", cors());
-// app.use(
-//   session({
-//     secret: "thesecret",
-//     saveUninitialized: false,
-//     resave: false
-//   })
-// );
-// app.use(passport.initialize());
-// app.use(passport.session());
+app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(cors());
+app.options("*", cors());
 app.use(routes);
 
 // REQUIRE MONGOOSE AND CONNECTION TO DATABASE //
