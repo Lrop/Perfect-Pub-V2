@@ -2,33 +2,49 @@ import React from "react";
 import "./style-header.css";
 import bar from "./bar.jpg";
 
-class NavBar extends React.Component {
-  render() {
-    return (
-      <div className="header">
-        <div class="row"></div>
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src={bar}></img>
-              <span class="card-title">Begin Searching Here!</span>
-              <form></form>
-            </div>
-            <div class="card-content">
-              <p>
-                I am a very simple card. I am good at containing small bits of
-                information. I am convenient because I require little markup to
-                use effectively.
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+function Header() {
+  return (
+    <div
+      className="jumboWrap"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <div className="jumbotron landingJumbo">
+        <h1 className="display-4 landingHead">Perfect Pub</h1>
+        <p className="lead">A simple way to find the perfect pub.</p>
+        <p className="lead">Search Here!</p>
+        <form class="form-inline">
+          <div class="form-group mb-2">
+            <label for="staticEmail2" class="sr-only">
+              Email
+            </label>
+            {/* <input
+              type="text"
+              readonly
+              class="form-control-plaintext"
+              id="staticEmail2"
+              value="email@example.com"
+            ></input> */}
           </div>
-        </div>
+          <div class="form-group mx-sm-3 mb-2">
+            <label for="inputPassword2" class="sr-only">
+              Search by Zip Code:
+            </label>
+            <input
+              type="password"
+              className="form-control"
+              id="inputPassword2"
+              placeholder=" Search by Zip Code:"
+            ></input>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">
+            Enter!
+          </button>
+        </form>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
-export default NavBar;
+export default Header;
