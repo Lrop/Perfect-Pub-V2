@@ -4,6 +4,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Mission from "./components/Mission";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Header />
       <Mission />
+      <Footer />
     </div>
   );
 }
