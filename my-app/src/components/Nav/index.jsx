@@ -1,9 +1,13 @@
 import React from "react";
 import "./style-nav.css";
 import logo2 from "./logo2.png";
+import Modal from "../Modal";
 // import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
+  state = { showModal: false };
+  handleShowMessageClick = () => this.setState({ showModal: true });
+  handleCloseModal = () => this.setState({ showModal: false });
   render() {
     return (
       <div className="navbar-expand-lg ">
@@ -102,6 +106,11 @@ class NavBar extends React.Component {
               >
                 Log In
               </button>
+              {this.state.showModal ? (
+                <Modal onClose={this.handleCloseModal}>
+                  Log in to Rec Renter
+                </Modal>
+              ) : null}
             </li>
           </div>
         </ul>

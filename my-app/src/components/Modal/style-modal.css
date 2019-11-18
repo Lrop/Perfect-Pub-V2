@@ -1,0 +1,47 @@
+.modal-body {
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  display: inline-block;
+  min-height: 300px;
+  margin: 1rem;
+  position: relative;
+  min-width: 300px;
+  justify-self: center;
+  text-align: center;
+  /* overflow: hidden; */
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.input-sign {
+  margin: auto;
+  padding-right: 0px;
+  overflow: hidden;
+}
+
+button,
+input {
+  overflow: visible;
+  padding-right: -54px;
+  padding-left: 2px;
+}
+/* #id01 {
+  position: fixed;
+} */
+
+body.modal-body {
+  overflow: hidden;
+}
+
+#button-modal {
+  background-color: black;
+  color: white;
+}
+#exit {
+  color: black;
+}
+#member {
+  text-decoration: underline;
+}

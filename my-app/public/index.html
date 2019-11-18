@@ -59,6 +59,17 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("id01");
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
