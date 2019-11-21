@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
+import Register from "./components/Register";
 
 // function App() {
 class App extends React.Component {
@@ -20,6 +21,7 @@ class App extends React.Component {
           <Header />
         </div>
         <Mission />
+        <Register />
         <Footer />
       </div>
     );

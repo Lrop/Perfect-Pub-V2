@@ -86,15 +86,15 @@ class NavBar extends React.Component {
             </li> */}
             <li className="nav-item">
               <a
-                href="#"
-                to="/savedlistings"
+                href="Register"
+                to="/Register"
                 className={
-                  window.location.pathname === "/savedlistings"
+                  window.location.pathname === "/Register"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
-                Saved
+                Register
               </a>
             </li>
 
