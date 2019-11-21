@@ -1,6 +1,8 @@
 import React from "react";
 import "./style-mission.css";
-// import bar from "./bar.jpg";
+import mission1 from "../Mission/IMG/mission1.png";
+import mission2 from "../Mission/IMG/mission2.png";
+import mission3 from "../Mission/IMG/mission3.png";
 
 function Mission() {
   return (
@@ -31,7 +33,7 @@ function Mission() {
               alt=""
               width={150}
               height={150}
-              //   src={tree3}
+              src={mission1}
               className="img-mission"
             ></img>
             <p className="card-text">
@@ -48,7 +50,7 @@ function Mission() {
               alt=""
               width={150}
               height={150}
-              //   src={bike2}
+              src={mission2}
               className="img-mission"
             ></img>
             <p className="card-text">
@@ -65,7 +67,7 @@ function Mission() {
               alt=""
               width={150}
               height={150}
-              //   src={money2}
+              src={mission3}
               className="img-mission"
             ></img>
             <p className="card-text">

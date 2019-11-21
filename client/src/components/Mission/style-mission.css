@@ -36,9 +36,9 @@ p {
   height: 160px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-style: dashed;
+  /* border-style: dashed; */
   /* background: url(https://images.unsplash.com/photo-1457382713369-161d1d986f54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80); */
-  background: violet;
+  /* background: violet; */
 }
 .card-text:last-child {
   margin-bottom: 0;
