@@ -49,7 +49,7 @@ class NavBar extends React.Component {
                 href="#"
                 to="/"
                 className={
-                  window.location.pathname === "/"
+                  window.location.pathname === "/signup"
                     ? "nav-link active"
                     : "nav-link"
                 }
