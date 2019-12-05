@@ -54,3 +54,9 @@ button:not(:disabled) {
 #button-1 {
   margin-bottom: 80px;
 }
+
+#wrapper-two {
+  margin: auto;
+  margin-right: 50px;
+  margin-left: 50px;
+}

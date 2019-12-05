@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style-nav.css";
 import logo2 from "./logo2.png";
 import Modal from "../Modal";
-// import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
   state = { showModal: false };

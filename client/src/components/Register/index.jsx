@@ -3,7 +3,7 @@ import "./style-register.css";
 
 function SignUpForm(props) {
   return (
-    <div id="wrapper">
+    <div id="wrapper-two">
       <div className="">
         <h1 className="display-41">Sign Up</h1>
         <div id="headText">
