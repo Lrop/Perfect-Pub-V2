@@ -6,14 +6,6 @@ import mission3 from "../Mission/IMG/mission3.png";
 
 function Mission() {
   return (
-    // <div
-    //   className="jumboWrap"
-    //   data-aos="fade-down"
-    //   data-aos-easing="linear"
-    //   data-aos-duration="1500"
-    // >
-    //   <p>FUCK</p>
-    // </div>
     <>
       <h2
         className="mission-header"

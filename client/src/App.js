@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
 import Register from "./components/Register";
+import Mission2 from "./components/Mission2";
 import Signup from "./pages/sign-up";
 
 // function App() {
@@ -23,12 +24,15 @@ class App extends React.Component {
           <div className="wrapper">
             <Switch>
               <Route exact path="#" />
-              <Route exact path="/Register" component={Signup} />
+              <Route path="/Register" exact component={Register} />
             </Switch>
             <Header />
           </div>
-          <Mission />
-          {/* <Register /> */}
+          <Mission />\
+          <div className="wrapper-4">
+            <Mission2 />
+            {/* <Register /> */}
+          </div>
           <Footer />
         </div>
       </Router>
