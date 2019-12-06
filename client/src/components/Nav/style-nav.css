@@ -64,3 +64,50 @@ button:not(:disabled) {
   border-style: double;
   margin: auto;
 }
+
+.navbar-expand-lg a:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+}
+
+/* .navbar-expand-lg a::after {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+} */
+
+.nav .active {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+}
+
+.navbar-expand-lg a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  /* border-bottom: 3px solid transparent; */
+}
+
+.navbar-expand-lg {
+  overflow: hidden;
+  /* background-image: linear-gradient(
+    to bottom,
+    rgba(207, 209, 203, 0.85),
+    rgba(91, 109, 99, 0.85)
+  ); */
+  /* background-color: black; */
+  /* height: 110px; */
+  border-bottom: 3px solid white;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+  color: black;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: 8px !important;
+  margin-bottom: 0px;
+  /* margin-right: 403px; */
+}

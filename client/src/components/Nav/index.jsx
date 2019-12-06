@@ -45,7 +45,7 @@ class NavBar extends React.Component {
               </a>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 href="#"
                 to="/"
                 className={
@@ -55,11 +55,11 @@ class NavBar extends React.Component {
                 }
               >
                 Home
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a
+              <Link
                 href="#"
                 to="/searchlistings"
                 className={
@@ -69,7 +69,7 @@ class NavBar extends React.Component {
                 }
               >
                 Search
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a
@@ -85,7 +85,7 @@ class NavBar extends React.Component {
               </a>
             </li> */}
             <li className="nav-item">
-              <a
+              <Link
                 href="Register"
                 to="/Register"
                 className={
@@ -95,7 +95,7 @@ class NavBar extends React.Component {
                 }
               >
                 Register
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item ml-auto">
