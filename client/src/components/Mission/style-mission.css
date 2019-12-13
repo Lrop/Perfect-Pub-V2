@@ -1,5 +1,9 @@
 p {
+  border-top: 30px;
   color: black;
+  font-family: "Girassol", cursive;
+  font-size: 55px;
+  text-decoration: underline;
 }
 .container {
   width: 90%;
@@ -74,6 +78,7 @@ p {
   padding: 5px;
   font-family: "Gidugu", sans-serif;
   font-family: 15px;
+  text-decoration: none;
 }
 
 .card-text:last-child {

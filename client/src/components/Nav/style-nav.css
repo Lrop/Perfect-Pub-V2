@@ -54,18 +54,6 @@ button:not(:disabled) {
   margin-top: 20px;
 }
 
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled),
-button:not(:disabled) {
-  cursor: pointer;
-  /* color: white; */
-  border: black;
-  border-style: double;
-  margin: auto;
-  margin-right: 20px;
-}
-
 .navbar-expand-lg a:hover {
   border-bottom: 2px solid rgb(255, 255, 255);
   border-top: 2px solid rgb(255, 255, 255);
@@ -98,6 +86,8 @@ button:not(:disabled) {
   padding-bottom: 20px;
   margin-bottom: 35px;
   color: black;
+  margin-left: 25px;
+  margin-right: 45px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -109,7 +99,8 @@ button:not(:disabled) {
     border-style: double;
     margin-top: 38px;
     border-radius: 18px;
-    margin-left: 88px;
+    /* margin-left: 88px; */
+    height: 141px;
     /* width: ; */
   }
   .navbar-collapse .btn {
@@ -127,4 +118,17 @@ button:not(:disabled) {
 .navbar-toggler {
   color: black;
   border: black;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  color: black;
+  border: black;
+  border-style: solid;
+  background: no-repeat center center;
+  background-size: 100% 100%;
 }

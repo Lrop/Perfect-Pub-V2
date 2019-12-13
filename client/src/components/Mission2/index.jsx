@@ -1,6 +1,8 @@
 import React from "react";
 import "./style-mission2.css";
 import bar from "../Mission2/img/bar1.jpg";
+import bar2 from "../Mission2/img/bar2.jpg";
+import bar3 from "../Mission2/img/bar3.jpg";
 
 function Mission2() {
   return (
@@ -12,7 +14,7 @@ function Mission2() {
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             {/* <img class="activator" src="images/office.jpg"></img> */}
-            <img class="activator" src={bar}></img>
+            <img class="activator" width={200} height={200} src={bar}></img>
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">
@@ -53,7 +55,7 @@ function Mission2() {
             </p>
           </div>
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src={bar}></img>
+            <img class="activator" width={200} height={200} src={bar3}></img>
           </div>
           {/* <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">
@@ -73,10 +75,11 @@ function Mission2() {
             </p>
           </div>
         </div>
+
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             {/* <img class="activator" src="images/office.jpg"></img> */}
-            <img class="activator" src={bar}></img>
+            <img class="activator" width={200} height={200} src={bar2}></img>
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">
