@@ -41,3 +41,7 @@ img {
 /* .wrapper3 {
   background-color: grey;
 } */
+p {
+  text-decoration: none;
+  margin: none;
+}
