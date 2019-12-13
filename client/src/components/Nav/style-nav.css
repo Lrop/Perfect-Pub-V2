@@ -94,13 +94,6 @@ button:not(:disabled) {
 
 .navbar-expand-lg {
   overflow: hidden;
-  /* background-image: linear-gradient(
-    to bottom,
-    rgba(207, 209, 203, 0.85),
-    rgba(91, 109, 99, 0.85)
-  ); */
-  /* background-color: black; */
-  /* height: 110px; */
   border-bottom: 3px solid white;
   padding-bottom: 20px;
   margin-bottom: 35px;
@@ -129,4 +122,9 @@ button:not(:disabled) {
     margin-top: 13px;
     align-content: left;
   }
+}
+
+.navbar-toggler {
+  color: black;
+  border: black;
 }

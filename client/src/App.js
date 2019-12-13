@@ -20,7 +20,9 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-          <Nav />
+          <div className="wrapper-nav">
+            <Nav />
+          </div>
           <div className="wrapper">
             <Switch>
               <Route exact path="#" />
