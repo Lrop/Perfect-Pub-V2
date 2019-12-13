@@ -1,8 +1,8 @@
 p {
   border-top: 1px;
   color: black;
-  font-family: "Girassol", cursive;
-  font-size: 55px;
+  /* font-family: "Girassol", cursive; */
+  /* font-size: 55px; */
   text-decoration: underline;
 }
 .container {
@@ -99,4 +99,9 @@ html:not(.no-js) [data-aos^="fade"][data-aos^="fade"].aos-animate {
 }
 h2 {
   color: black;
+}
+.paragraph {
+  text-decoration: underline overline;
+  /* font-family: ; */
+  font-family: "Girassol", cursive;
 }

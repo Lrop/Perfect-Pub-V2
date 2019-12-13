@@ -8,7 +8,7 @@ function Mission2() {
   return (
     <>
       <div className="paragraph-heading">
-        <p className="p-1">Check out our Featured Pubs!</p>
+        <p className="p-1">~ ~ Check out our Featured Pubs! ~ ~</p>
       </div>
       <div className="wrapper3">
         <div class="card">
@@ -21,7 +21,7 @@ function Mission2() {
               {/* Card Title<i class="material-icons right">more_vert</i> */}
             </span>
             <p>
-              <a>
+              <a className="a1">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
                 deserunt impedit eius aspernatur inventore, recusandae ducimus
                 quas nobis perspiciatis praesentium officiis sed minima
@@ -44,11 +44,18 @@ function Mission2() {
         </div>
         <div class="card">
           <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"></span>
+            <p>
+              <a href="#">This is a link</a>
+            </p>
+          </div>
+          <hr />
+          <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">
               {/* Card Title<i class="material-icons right">more_vert</i> */}
             </span>
             <p>
-              <a href="#">
+              <a href="#" className="a1">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam a
                 minima neque odit dolorem, distinctio eligendi cum, nulla animi
               </a>
@@ -87,7 +94,7 @@ function Mission2() {
             </span>
             <p>
               {/* <a href="#">This is a link</a> */}
-              <a>
+              <a className="a1">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
                 deserunt impedit eius aspernatur inventore, recusandae ducimus
                 quas nobis perspiciatis praesentium officiis sed minima

@@ -12,7 +12,7 @@ function Mission() {
         data-aos="zoom-in-down"
         data-aos-duration="2000"
       >
-        <p className="paragraph">What is Perfect Pub</p>
+        <p className="paragraph">~ What is Perfect Pub? ~</p>
       </h2>
       <div className="container">
         <div

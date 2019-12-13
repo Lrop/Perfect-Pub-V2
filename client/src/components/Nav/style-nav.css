@@ -37,7 +37,14 @@
 }
 a {
   color: black;
-  font-size: 16px;
+  font-size: 26px;
+  font-family: "Girassol", cursive;
+}
+a:hover {
+  color: black;
+  font-size: 36px;
+  font-family: "Girassol", cursive;
+  text-decoration: underline;
 }
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
@@ -131,4 +138,16 @@ button:not(:disabled) {
   border-style: solid;
   background: no-repeat center center;
   background-size: 100% 100%;
+}
+
+.nav-link:hover {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
 }

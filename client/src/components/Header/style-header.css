@@ -3,11 +3,17 @@
   margin-right: 5%;
   margin-left: 5%;
   color: white;
+  box-shadow: 0px 0px 12px black;
+  border-color: white;
+  /* border-style: solid; */
 }
 .jumbotron {
   background-image: url(./bar.jpg);
-  height: 400px;
+  /* height: 400px; */
   box-shadow: 0px 0px 16px black;
+  border-color: white;
+  border-style: solid;
+  margin-bottom: 75px;
 }
 .form-control {
   color: white;
@@ -31,6 +37,13 @@
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: "Girassol", cursive;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
 }
 input:not([type]),
 input[type="text"]:not(.browser-default),
