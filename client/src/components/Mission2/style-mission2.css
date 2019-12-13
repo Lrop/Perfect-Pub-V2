@@ -35,7 +35,7 @@ img {
   text-decoration: underline;
   /* border-right: black 2px; */
   text-align: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   font-family: "Girassol", cursive;
 }
 /* .wrapper3 {
@@ -44,4 +44,9 @@ img {
 p {
   text-decoration: none;
   margin: none;
+  padding: none;
+}
+a {
+  margin: none;
+  padding: none;
 }
