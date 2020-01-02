@@ -3,6 +3,7 @@ import "./style-mission2.css";
 import bar from "../Mission2/img/bar1.jpg";
 import bar2 from "../Mission2/img/bar2.jpg";
 import bar3 from "../Mission2/img/bar3.jpg";
+import { Link } from "react-router-dom";
 
 function Mission2() {
   return (
@@ -29,7 +30,9 @@ function Mission2() {
               </a>
               <br />
               <hr />
-              <a href="#">This is a link</a>
+              <a href="#" className="linktag">
+                This is a link
+              </a>
             </p>
           </div>
           <div class="card-reveal">
@@ -46,7 +49,9 @@ function Mission2() {
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"></span>
             <p>
-              <a href="#">This is a link</a>
+              <a href="#" className="linktag">
+                This is a link
+              </a>
             </p>
           </div>
           <hr />
@@ -102,7 +107,11 @@ function Mission2() {
               </a>
               <br />
               <hr />
-              <a href="#">This is a link</a>
+              {/* <Link to="http://google.com"> Contact us </Link>
+              <a href={"http://google.com"}>Google</a> */}
+              <a href="https://www.google.com" className="linktag">
+                This is a link
+              </a>
             </p>
           </div>
           <div class="card-reveal">
