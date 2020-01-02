@@ -19,6 +19,7 @@
   display: inline-block;
   font-weight: 400;
   color: #212529;
+  background-image: linear-gradient(#000000, #000000, #000000, #434343);
   margin: 30px;
   text-align: center;
   vertical-align: middle;
@@ -145,9 +146,12 @@ button:not(:disabled) {
   text-decoration: underline;
 }
 
-.btn:hover {
-  color: black;
+/* .btn:hover {
+  color: white;
   background-color: white;
   border-style: solid;
   border-color: black;
+} */
+#button-nav:hover {
+  color: white;
 }
