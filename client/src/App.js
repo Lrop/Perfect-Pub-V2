@@ -30,7 +30,7 @@ class App extends React.Component {
             </Switch>
             <Header />
           </div>
-          <Mission />\
+          <Mission />
           <div className="wrapper-4">
             <Mission2 />
             {/* <Register /> */}

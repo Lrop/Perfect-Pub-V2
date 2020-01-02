@@ -88,6 +88,10 @@ p {
   padding-bottom: 0px;
   font-size: 15px;
   /* color: white; */
+  /* border-bottom: double;
+  border-top: double;
+  border-left: double;
+  border-right: double; */
   color: black;
 }
 

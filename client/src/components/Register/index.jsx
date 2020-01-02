@@ -6,9 +6,7 @@ function SignUpForm(props) {
     <div id="wrapper-two">
       <div className="">
         <h1 className="display-41">Sign Up</h1>
-        <div id="headText">
-          <p>Enter Below</p>
-        </div>
+        <div id="headText">{/* <p>Enter Below</p> */}</div>
         <hr />
         <form method="POST" action="http://localhost:3001/api/user/signup">
           <div className="form-row">

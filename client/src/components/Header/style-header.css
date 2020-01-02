@@ -100,3 +100,11 @@ textarea.materialize-textarea {
 .lead {
   color: white;
 }
+
+/* [type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled):hover {
+  color: black;
+  background-color: white;
+} */
