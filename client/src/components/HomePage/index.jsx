@@ -1,8 +1,8 @@
 import React from "react";
-import "./style-header.css";
+import "./style-homepage.css";
 import bar from "./bar.jpg";
 
-function Header() {
+function HomePage() {
   return (
     <div
       className="jumboWrap"
@@ -47,4 +47,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HomePage;

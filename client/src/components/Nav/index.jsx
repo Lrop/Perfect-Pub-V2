@@ -49,7 +49,7 @@ class NavBar extends React.Component {
                 href="#"
                 to="/"
                 className={
-                  window.location.pathname === "/signup"
+                  window.location.pathname === "/"
                     ? "nav-link active"
                     : "nav-link"
                 }
@@ -61,9 +61,9 @@ class NavBar extends React.Component {
             <li className="nav-item">
               <Link
                 href="#"
-                to="/searchlistings"
+                to="/"
                 className={
-                  window.location.pathname === "/searchlistings"
+                  window.location.pathname === "/"
                     ? "nav-link active"
                     : "nav-link"
                 }
@@ -108,7 +108,7 @@ class NavBar extends React.Component {
               </button>
               {this.state.showModal ? (
                 <Modal onClose={this.handleCloseModal}>
-                  Log in to Rec Renter
+                  Log in to Perfect Pub
                 </Modal>
               ) : null}
             </li>
